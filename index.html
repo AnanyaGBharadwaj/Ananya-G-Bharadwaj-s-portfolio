@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <title>My Resume</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <h2 class="logo">My Portfolio</h2>
+    <ul>
+      <li><button onclick="showSection('about')">About Me</button></li>
+      <li><button onclick="showSection('skills')">Skills</button></li>
+      <li><button onclick="showSection('education')">Education</button></li>
+      <li><button onclick="showSection('projects')">Projects</button></li>
+      <li><button onclick="showSection('certifications')">Certifications</button></li>
+      <li><button onclick="showSection('contact')">Contact</button></li>
+    </ul>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero" data-aos="fade-up">
+    <img src="https://media.licdn.com/dms/image/v2/D5603AQGkA4_8umOHIw/profile-displayphoto-crop_800_800/B56ZpW6lKiH8AM-/0/1762394790250?e=1766016000&v=beta&t=DM21TRawUhCu_A4r6HQuD1NnfebBnSyNnWFfm9ifgWM" alt="Ananya G Bharadwaj" class="profile-pic" />
+    <h1>Hello, I'm <span class="highlight">Ananya G Bharadwaj</span></h1>
+    <p>A passionate Computer Science Engineering student. </p>
+    </br></br>
+    <a href="cv/Ananya_G_Bharadwaj_CV_Final.pdf" download class="download-btn">
+  <i class="fa-solid fa-download"></i> Download CV
+</a>
+
+
+  </section>
+
+  <!-- DYNAMIC CONTENT SECTION -->
+  <section id="content" class="content-section" data-aos="zoom-in">
+    <h2>Welcome!</h2>
+    <p>Click a button in the top menu to view my information.</p>
+  </section>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+<!-- FOOTER SECTION -->
+  <footer>
+    © 2025 Ananya G Bharadwaj — All Rights Reserved
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
