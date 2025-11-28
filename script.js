@@ -1,6 +1,5 @@
 function showSection(section) {
   const content = document.getElementById("content");
-
   let html = "";
    
   if (section === "about") {
@@ -23,7 +22,6 @@ function showSection(section) {
   if (section === "skills") {
     html = `
       <h2>My Skills</h2>
-
       <div class="skills-grid">
 
         <div class="skill-card">
@@ -73,7 +71,6 @@ function showSection(section) {
  if (section === "education") {
   html = `
     <h2>🎓 Education</h2>
-
     <div class="edu-block">
       <h3>Malnad College of Engineering, Hassan <span>| 2023–2027</span></h3>
       <p><b>B.E – Computer Science & Engineering</b></p>
@@ -102,7 +99,6 @@ function showSection(section) {
   if (section === "projects") {
   html = `
     <h2>Projects</h2>
-
     <div class="project-card">
       <h3>AI-Based Timetable Generator</h3>
       <p>
@@ -112,7 +108,6 @@ function showSection(section) {
     </div>
   `;
 }
-
 
   if (section === "certifications") {
   html = `
@@ -141,7 +136,6 @@ function closeCert() {
   if (section === "contact") {
   html = `
     <h2>Contact Me</h2>
-
     <div class="contact-item">
       <i class="fa-solid fa-envelope"></i>
       <span>Email:</span>
@@ -175,8 +169,3 @@ function closeCert() {
   // animation refresh
   AOS.init();
 }
-
-
-
-
-
