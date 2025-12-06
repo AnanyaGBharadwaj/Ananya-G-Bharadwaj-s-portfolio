@@ -1,4 +1,3 @@
-# Ananya-G-Bharadwaj-s-portfolio
 # Ananya G Bharadwaj – Personal Resume Website
 
 This repository contains my **personal resume website** built using **HTML, CSS, and JavaScript**. It showcases my skills, education, projects, and contact information in a clean, professional and responsive format. The website can be hosted using **GitHub Pages** for easy sharing.
